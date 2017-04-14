@@ -1,6 +1,6 @@
 /**
- * # Main.js
- *  This is the main app screen
+ * # Locations.js
+ *  This is the Locations app screen
  *
  */
 'use strict'
@@ -99,7 +99,7 @@ I18n.translations = Translations
 /**
  * ## App class
  */
-class Main extends Component {
+class Locations extends Component {
 
   handlePress () {
     Actions.Subview({
@@ -108,45 +108,20 @@ class Main extends Component {
     })
   }
 
-  handlePressLocations () {
-    Actions.Locations({
-      title: 'Locations'
-        // you can add additional props to be passed to Subview here...
-    })
-  }
-
-  handlePressContacts () {
-    Actions.Contacts({
-      title: 'Contacts'
-        // you can add additional props to be passed to Subview here...
-    })
-  }
-
-  handlePressMessages () {
-    Actions.Messages({
-      title: 'Messages'
-        // you can add additional props to be passed to Subview here...
-    })
-  }
-
   render () {
     return (
       <View style={styles.container}>
+        <View>
           <Header isFetching={this.props.auth.form.isFetching}
             showState={this.props.global.showState}
             currentState={this.props.global.currentState}
             onGetState={this.props.actions.getState}
             onSetState={this.props.actions.setState} />
 
-          <Button style={styles.button} onPress={this.handlePressMessages.bind(this)}>
-            {I18n.t('Main.send')}
+          <Button style={styles.button} onPress={this.handlePress.bind(this)}>
+            {I18n.t('Locations.navigate')}
           </Button>
-          <Button style={styles.button} onPress={this.handlePressLocations.bind(this)}>
-            {I18n.t('Main.locations')}
-          </Button>
-          <Button style={styles.button} onPress={this.handlePressContacts.bind(this)}>
-            {I18n.t('Main.contacts')}
-          </Button>
+        </View>
       </View>
     )
   }
@@ -155,4 +130,4 @@ class Main extends Component {
 /**
  * Connect the properties
  */
-export default connect(mapStateToProps, mapDispatchToProps)(Main)
+export default connect(mapStateToProps, mapDispatchToProps)(Locations)

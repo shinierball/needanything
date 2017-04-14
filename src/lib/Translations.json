@@ -15,9 +15,24 @@
     "Needanything": {
       "logout": "注销",
       "main": "主页",
-      "profile":"个人信息"
+      "profile":"个人信息",
+      "contacts":"contacts",
+      "messages":"messages",
+      "locations":"locations",
     },
     "Main": {
+      "navigate": "导航到子视图",
+      "send": "Send a NeedAnything",
+      "locations": "Go to my Locations",
+      "contacts": "Go to my Contacts",
+    },
+    "Contacts": {
+      "navigate": "导航到子视图"
+    },
+    "Messages": {
+      "navigate": "导航到子视图"
+    },
+    "Locations": {
       "navigate": "导航到子视图"
     },
     "Profile": {
@@ -53,6 +68,13 @@
       "valid_email": "请提供有效邮箱地址",
       "valid_password": "请输入6-12个数字和特殊字符: !@#$%^&*",
       "valid_password_again": "密码不匹配"
+    },
+    "InitialLoginRender": {
+      "greeting": "Let's get started by entering your basic information.",
+      "forgot_password": "Forgot Password?",
+      "already_have_account": "Already have an account?",
+      "register": "Register",
+      "show_password": "Show Password"
     }
   },
   "en": {
@@ -71,10 +93,25 @@
     "Needanything": {
       "logout": "Log out",
       "main": "Main",
-      "profile":"Profile"
+      "profile":"Profile",
+      "contacts":"Contacts",
+      "messages":"Messages",
+      "locations":"Locations"
     },
     "Main": {
-      "navigate": "Navigate to Subview"
+      "navigate": "Navigate to Subview",
+      "send": "Send a NeedAnything",
+      "locations": "Go to my Locations",
+      "contacts": "Go to my Contacts",
+    },
+    "Contacts": {
+      "navigate": "Contacts: Navigate to Subview"
+    },
+    "Locations": {
+      "navigate": "Locations: Navigate to Subview"
+    },
+    "Messages": {
+      "navigate": "Messages: Navigate to Subview"
     },
     "Profile": {
       "username": "User name",
@@ -109,6 +146,13 @@
       "valid_email": "Provide valid email",
       "valid_password": "6-12 in length, with a number and special character: !@#$%^&*",
       "valid_password_again": "Passwords must match"
+    },
+    "InitialLoginRender": {
+      "greeting": "Let's get started by entering your basic information.",
+      "forgot_password": "Forgot Password?",
+      "already_have_account": "Already have an account?",
+      "register": "Register",
+      "show_password": "Show Password"
     }
   },
   "fr": {
@@ -118,26 +162,38 @@
     "Header": {
       "current_state": "état actuel",
       "see_console": "voir console",
-      "update_state": "état de mise à jour"      
-    },    
+      "update_state": "état de mise à jour"
+    },
     "Subview": {
       "subview": "Sous-vue",
       "back": "Arrière"
-    },    
+    },
     "Needanything": {
       "logout": "Se déconnecter",
       "main": "Principal",
       "profile":"Profil"
     },
     "Main": {
-      "navigate": "Accédez à sous-vue"
+      "navigate": "Accédez à sous-vue",
+      "send": "Send a NeedAnything",
+      "locations": "Go to my Locations",
+      "contacts": "Go to my Contacts",
+    },
+    "Contacts": {
+      "navigate": "Contacts: Accédez à sous-vue"
+    },
+    "Locations": {
+      "navigate": "Locations: Accédez à sous-vue"
+    },
+    "Messages": {
+      "navigate": "Messages: Accédez à sous-vue"
     },
     "Profile": {
       "username": "Nom d'utilisateur",
       "email": "Email",
       "update": "Mettre à jour le profil",
       "verified": "Email verifié",
-      "display": "afficher seulement"      
+      "display": "afficher seulement"
     },
     "LoginForm": {
       "username": "Nom d'utilisateur",
@@ -149,7 +205,7 @@
       "forgot_password": "Mot de passe oublié?",
       "already_have_account": "Vous avez déjà compte?",
       "register": "Registre",
-      "show_password": "Montrer le mot de passe"      
+      "show_password": "Montrer le mot de passe"
     },
     "ForgotPassword": {
       "reset_password": "Réinitialiser le mot de passe"
@@ -165,7 +221,14 @@
       "valid_email": "Fournir email valide",
       "valid_password": "6-12 en longueur, avec un nombre et un caractère spécial: !@#$%^&*",
       "valid_password_again": "les mots de passe doivent correspondre"
-    }    
+    },
+    "InitialLoginRender": {
+      "greeting": "Let's get started by entering your basic information.",
+      "forgot_password": "Forgot Password?",
+      "already_have_account": "Already have an account?",
+      "register": "Register",
+      "show_password": "Show Password"
+    }
   },
   "es": {
     "App": {
@@ -174,19 +237,34 @@
     "Header": {
       "current_state": "Estado actual",
       "see_console": "ver la consola",
-      "update_state": "Estado de actualización"      
-    },    
+      "update_state": "Estado de actualización"
+    },
     "Subview": {
       "subview": "Subview",
       "back": "Regresar"
-    },    
+    },
     "Needanything": {
       "logout": "Cerrar sesión",
       "main": "Principal",
-      "profile":"Perfil"
+      "profile":"Perfil",
+      "locations": "locations",
+      "contacts": "locations",
+      "messages":"messages"
     },
     "Main": {
-      "navigate": "Navegue hasta subview"
+      "navigate": "Navegue hasta subview",
+      "send": "Send a NeedAnything",
+      "locations": "Go to my Locations",
+      "contacts": "Go to my Contacts",
+    },
+    "Contacts": {
+      "navigate": "Contacts: Navegue hasta subview"
+    },
+    "Locations": {
+      "navigate": "Locations: Navegue hasta subview"
+    },
+    "Messages": {
+      "navigate": "Messages: Navegue hasta subview"
     },
     "Profile": {
       "username": "Nombre de usuario",
@@ -205,7 +283,7 @@
       "forgot_password": "¿Olvidaste tu contraseña?",
       "already_have_account": "¿Ya tienes cuenta?",
       "register": "Registrarse",
-      "show_password": "Mostrar Contraseña"      
+      "show_password": "Mostrar Contraseña"
     },
     "ForgotPassword": {
       "reset_password": "Restablecer la contraseña"
@@ -221,8 +299,14 @@
       "valid_email": "Proveer de correo electrónico válida",
       "valid_password": "6-12 de longitud, con un número y carácter especial: !@#$%^&*",
       "valid_password_again": "Las contraseñas deben coincidir"
-    }    
+    },
+    "InitialLoginRender": {
+      "greeting": "Let's get started by entering your basic information.",
+      "forgot_password": "Forgot Password?",
+      "already_have_account": "Already have an account?",
+      "register": "Register",
+      "show_password": "Show Password"
+    }
   }
 
 }
-

@@ -1,7 +1,6 @@
 'use strict'
 /**
  *  # needanything
- *  Needanything ![needanything](https://cloud.githubusercontent.com/assets/1282364/11599365/1a1c39d2-9a8c-11e5-8819-bc1e48b30525.png)
  */
 
 /**
@@ -70,6 +69,9 @@ import ForgotPassword from './containers/ForgotPassword'
 import Profile from './containers/Profile'
 import Main from './containers/Main'
 import Subview from './containers/Subview'
+import Contacts from './containers/Contacts'
+import Locations from './containers/Locations'
+import Messages from './containers/Messages'
 
 /**
  * ### icons
@@ -212,6 +214,30 @@ export default function native (platform) {
                   hideNavBar
                   component={Main}
                   initial />
+
+                  <Scene key='Contacts'
+                    title={I18n.t('Needanything.contacts')}
+                    iconName={'home'}
+                    icon={TabIcon}
+                    hideNavBar
+                    component={Contacts}
+                    initial />
+
+                    <Scene key='Locations'
+                      title={I18n.t('Needanything.locations')}
+                      iconName={'home'}
+                      icon={TabIcon}
+                      hideNavBar
+                      component={Locations}
+                      initial />
+
+                      <Scene key='Messages'
+                        title={I18n.t('Needanything.messages')}
+                        iconName={'home'}
+                        icon={TabIcon}
+                        hideNavBar
+                        component={Messages}
+                        initial />
 
                 <Scene key='Profile'
                   title={I18n.t('Needanything.profile')}
