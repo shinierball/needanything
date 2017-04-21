@@ -52,7 +52,7 @@ var styles = StyleSheet.create({
     marginTop: 20,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'transparent'
+    backgroundColor: '#FF8D5B'
   },
   mark: {
     height: 100,
